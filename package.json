@@ -1,0 +1,27 @@
+{
+  "name": "@mega/jsondb",
+  "version": "1.0.0",
+  "description": "Anlik değişebilen ve kontrol edilebilen json database",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imehmetgenc/jsondb.git"
+  },
+  "keywords": [
+    "mega",
+    "database",
+    "json",
+    "json",
+    "database",
+    "db"
+  ],
+  "author": "MEGA <imehmetgenc>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imehmetgenc/jsondb/issues"
+  },
+  "homepage": "https://github.com/imehmetgenc/jsondb#readme"
+}
