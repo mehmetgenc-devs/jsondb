@@ -16,11 +16,11 @@ class MegaDB {
     functions.fetchFiles(this.dbFolder, this.dbName);
 
     if(!db) {
-      throw new TypeError("Verinin adını gir.");
+      throw new TypeError("Verinin adını gir. - Enter the name of the data.");
     }
 
     if(!data) {
-      throw new TypeError("Ayarlanacak veriyi gir.");
+      throw new TypeError("Ayarlanacak veriyi gir. - Enter the data to be set.");
     }
 
     const content = JSON.parse(fs.readFileSync(`./${this.dbFolder}/${this.dbName}.json`, "utf8"));
@@ -38,7 +38,7 @@ class MegaDB {
   get(db) {
 
     if(!db) {
-      throw new TypeError("Verinin adını gir.");
+      throw new TypeError("Verinin adını gir. - Enter the name of the data.");
     }
 
     const content = JSON.parse(fs.readFileSync(`./${this.dbFolder}/${this.dbName}.json`, "utf8"));
@@ -50,7 +50,7 @@ class MegaDB {
   fetch(db) {
 
     if(!db) {
-      throw new TypeError("Verinin adını gir.");
+      throw new TypeError("Verinin adını gir. - Enter the name of the data.");
     }
 
     const content = JSON.parse(fs.readFileSync(`./${this.dbFolder}/${this.dbName}.json`, "utf8"));
@@ -62,7 +62,7 @@ class MegaDB {
   has(db) {
 
     if(!db) {
-      throw new TypeError("Verinin adını gir.");
+      throw new TypeError("Verinin adını gir. - Enter the name of the data.");
     }
 
     const content = JSON.parse(fs.readFileSync(`./${this.dbFolder}/${this.dbName}.json`, "utf8"));
@@ -75,7 +75,7 @@ class MegaDB {
     functions.fetchFiles(this.dbFolder, this.dbName);
 
     if(!db) {
-      throw new TypeError("Verinin adını gir.");
+      throw new TypeError("Verinin adını gir. - Enter the name of the data.");
     }
 
     const content = JSON.parse(fs.readFileSync(`./${this.dbFolder}/${this.dbName}.json`, "utf8"));
@@ -102,15 +102,15 @@ class MegaDB {
   add(db, number) {
     
     if(!db) {
-      throw new TypeError("Verinin adını gir.");
+      throw new TypeError("Verinin adını gir. - Enter the name of the data.");
     }
 
     if(!number) {
-      throw new TypeError("Ayarlanacak veriyi gir.");
+      throw new TypeError("Ayarlanacak veriyi gir. - Enter the data to be set.");
     }
 
     if(isNaN(number)) {
-      throw new TypeError("Bir sayı gir.");
+      throw new TypeError("Bir sayı gir. - Enter a number.");
     }
 
     this.set(db, Number(this.get(db) ? (isNaN(this.get(db)) ? Number(number) : this.get(db)+Number(number)) : Number(number)));
@@ -122,15 +122,15 @@ class MegaDB {
   subtract(db, number) {
     
     if(!db) {
-      throw new TypeError("Verinin adını gir.");
+      throw new TypeError("Verinin adını gir. - Enter the name of the data.");
     }
 
     if(!number) {
-      throw new TypeError("Ayarlanacak veriyi gir.");
+      throw new TypeError("Ayarlanacak veriyi gir. - Enter the data to be set.");
     }
 
     if(isNaN(number)) {
-      throw new TypeError("Bir sayı gir.");
+      throw new TypeError("Bir sayı gir. - Enter a number.");
     }
 
     if(this.get(db)-number <= 1) {
@@ -152,11 +152,11 @@ class MegaDB {
   push(db, data) {
 
     if(!db) {
-      throw new TypeError("Verinin adını gir.");
+      throw new TypeError("Verinin adını gir. - Enter the name of the data.");
     }
 
     if(!data) {
-      throw new TypeError("Ayarlanacak veriyi gir.");
+      throw new TypeError("Ayarlanacak veriyi gir. - Enter the data to be set.");
     }
 
     var arr = [];
@@ -180,11 +180,11 @@ class MegaDB {
   unpush(db, data) {
 
     if(!db) {
-      throw new TypeError("Verinin adını gir.");
+      throw new TypeError("Verinin adını gir. - Enter the name of the data.");
     }
 
     if(!data) {
-      throw new TypeError("Ayarlanacak veriyi gir.");
+      throw new TypeError("Ayarlanacak veriyi gir. - Enter the data to be set.");
     }
 
     var arr = [];
@@ -204,15 +204,15 @@ class MegaDB {
   delByPriority(data, number) {
 
     if(!data) {
-      throw new TypeError("Ayarlanacak veriyi gir.");
+      throw new TypeError("Ayarlanacak veriyi gir. - Enter the data to be set.");
     }
 
     if(!number) {
-      throw new TypeError("Bir sayı gir.");
+      throw new TypeError("Bir sayı gir. - Enter a number.");
     }
 
     if(isNaN(number)) {
-      throw new TypeError("Bir sayı gir.");
+      throw new TypeError("Bir sayı gir. - Enter a number.");
     }
 
     if(!this.get(data) || this.get(data).length < 1) {
@@ -240,19 +240,19 @@ class MegaDB {
   setByPriority(data, value, number) {
 
     if(!data) {
-      throw new TypeError("Ayarlanacak veriyi gir.");
+      throw new TypeError("Ayarlanacak veriyi gir. - Enter the data to be set.");
     }
 
     if(!value) {
-      throw new TypeError("Ayarlanacak veriyi gir.");
+      throw new TypeError("Ayarlanacak veriyi gir. - Enter the data to be set.");
     }
 
     if(!number) {
-      throw new TypeError("Bir sayı gir.");
+      throw new TypeError("Bir sayı gir. - Enter a number.");
     }
 
     if(isNaN(number)) {
-      throw new TypeError("Bir sayı gir.");
+      throw new TypeError("Bir sayı gir. - Enter a number.");
     }
 
     if(!this.get(data) || this.get(data).length < 1) {
