@@ -14,11 +14,11 @@ $ npm install @imehmetgenc/db.json
 
 Import or require the module to your code:
 ```js
-const { Model } = require('@imehmetgenc/db.json');
+const MegaDB = require('@imehmetgenc/db.json');
 ```
 
 ```js
-import { Model } from '@imehmetgenc/db.json';
+import MegaDB from '@imehmetgenc/db.json';
 
 ```
 <br/>
