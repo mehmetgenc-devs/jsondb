@@ -10,11 +10,13 @@ Github: https://github.com/imehmetgenc/db.json<br>
 Install this module:
 ```
 $ npm install @imehmetgenc/db.json
+
 ```
 
 Import or require the module to your code:
 ```js
 const MegaDB = require('@imehmetgenc/db.json');
+
 ```
 
 ```js
