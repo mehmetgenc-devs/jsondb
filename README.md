@@ -1,4 +1,4 @@
-<h3>Json-Database-db<h3>
+<h3>@imehmetgenc/jsondb<h3>
 
 EN: This module allows you to create an easy-to-use and instantly modifiable local database in JSON format.
 TR: Bu modül, JSON formatında kullanımı kolay ve anlık değiştirilebilen yerel bir veritabanı oluşturmanıza olanak sağlar.
