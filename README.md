@@ -8,7 +8,7 @@ Github: https://github.com/imehmetgenc/db.json<br>
 
 <h3>Usage</h3>
 Install this module:
-```sh-session
+```
 $ npm install @imehmetgenc/db.json
 ```
 
