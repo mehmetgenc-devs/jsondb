@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imehmetgenc/jsondb.git"
+    "url": "git+https://github.com/imehmetgenc/db.json.git"
   },
   "keywords": [
     "mega",
@@ -21,7 +21,7 @@
   "author": "MEGA <imehmetgenc>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/imehmetgenc/jsondb/issues"
+    "url": "https://github.com/imehmetgenc/db.json/issues"
   },
-  "homepage": "https://github.com/imehmetgenc/jsondb#readme"
+  "homepage": "https://github.com/imehmetgenc/db.json#readme"
 }
