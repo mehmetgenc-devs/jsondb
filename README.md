@@ -31,6 +31,7 @@ EN: I have left a few tips for you to use below, I hope I explained them well.<b
 TR: Aşağıda size kullanmanz için bir kaç ipucu bıraktım umarım iyi anlatmışımdır.<br>
 </p>
 <br>
+
 ```js
 const newDb = new MegaDB("test"); // Create database src: /database/test.json
 
