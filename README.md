@@ -12,7 +12,7 @@ Install this module:
 ```bash
 $ npm install @imehmetgenc/db.json
 ```
-
+<br/>
 Import or require the module to your code:
 ```js
 const MegaDB = require('@imehmetgenc/db.json');
