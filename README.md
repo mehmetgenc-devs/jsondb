@@ -1,4 +1,4 @@
-<h3>@imehmetgenc/jsondb<h3>
+<h3>Json-Database-db<h3>
 
 EN: This module allows you to create an easy-to-use and instantly modifiable local database in JSON format.
 TR: Bu modül, JSON formatında kullanımı kolay ve anlık değiştirilebilen yerel bir veritabanı oluşturmanıza olanak sağlar.
@@ -23,6 +23,8 @@ import { Model } from '@imehmetgenc/jsondb'
 ```
 <br>
 
+
+<h3>Test<h3>
 EN: I have left a few tips for you to use below, I hope I explained them well.<br>
 TR: Aşağıda size kullanmanz için bir kaç ipucu bıraktım umarım iyi anlatmışımdır.
 
