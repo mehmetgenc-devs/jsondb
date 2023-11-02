@@ -18,7 +18,9 @@ Import or require the module to your code:
 
 ```js
 const MegaDB = require('@imehmetgenc/db.json');
+```
 
+```js
 import MegaDB from '@imehmetgenc/db.json';
 ```
 <br/>
