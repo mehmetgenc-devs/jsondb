@@ -1,14 +1,13 @@
 <h3>JSON DATABASE</h3>
 <p>
-- EN: This module allows you to create an easy-to-use and instantly modifiable local database in JSON format.<br/>
-- TR: Bu modül, JSON formatında kullanımı kolay ve anlık değiştirilebilen yerel bir veritabanı oluşturmanıza olanak sağlar.<br/>
+EN: This module allows you to create an easy-to-use and instantly modifiable local database in JSON format.<br/>
+TR: Bu modül, JSON formatında kullanımı kolay ve anlık değiştirilebilen yerel bir veritabanı oluşturmanıza olanak sağlar.<br/>
 </p>
 <br/>
-- Github: https://github.com/imehmetgenc/db.json<br>
+Github: https://github.com/imehmetgenc/db.json<br>
 
 <h3>Usage</h3>
-- Install this module:
-
+Install this module:
 ```sh
 $ npm install @imehmetgenc/db.json
 ```
@@ -27,8 +26,8 @@ import { Model } from '@imehmetgenc/db.json';
 
 <h3>Test</h3>
 <p>
-- EN: I have left a few tips for you to use below, I hope I explained them well.<br>
-- TR: Aşağıda size kullanmanz için bir kaç ipucu bıraktım umarım iyi anlatmışımdır.<br>
+EN: I have left a few tips for you to use below, I hope I explained them well.<br>
+TR: Aşağıda size kullanmanz için bir kaç ipucu bıraktım umarım iyi anlatmışımdır.<br>
 </p>
 <br/>
 
