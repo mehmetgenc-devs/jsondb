@@ -12,8 +12,8 @@ class MegaDB {
     } else {
       this.dbName = options ?? "database";
       this.dbFolder = "database/";
-      this.noBlankData = true;
-      this.readable = true;
+      this.noBlankData = false;
+      this.readable = false;
     }
 
     functions.fetchFiles(this.dbFolder, this.dbName);
