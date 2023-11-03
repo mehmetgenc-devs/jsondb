@@ -13,7 +13,7 @@ class MegaDB {
       this.dbName = options ?? "database";
       this.dbFolder = "database/";
       this.noBlankData = false;
-      this.readable = false;
+      this.readable = true;
     }
 
     functions.fetchFiles(this.dbFolder, this.dbName);
