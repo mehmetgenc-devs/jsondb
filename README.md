@@ -4,7 +4,6 @@ EN: This module allows you to create an easy-to-use and instantly modifiable loc
 TR: Bu modül, JSON formatında kullanımı kolay ve anlık değiştirilebilen yerel bir veritabanı oluşturmanıza olanak sağlar.<br/>
 </p>
 <br/>
-
 <h3>Usage</h3>
 Install this module:
 
